@@ -1,5 +1,5 @@
 // Initialize the map centered on Kenya
-var map = L.map('map').setView([-1.286389, 36.817223], 6);  // Coordinates for Nairobi, Kenya, with a zoom level of 6
+var map = L.map('map').setView([-1.286389, 36.817223], 13);  // Coordinates for Nairobi, Kenya, with a zoom level of 6
 
 // Add the default OpenStreetMap tiles
 var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
